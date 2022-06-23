@@ -48,4 +48,4 @@ Build an HTML form with an input field and two buttons "hinzufügen" for adding 
 
 ## Acknowledgments
 
-This project has been realized as part of the [https://www.super-code.de/](<Super(Code)>) "Front-End Boot-Camp 2022".
+This project has been realized as part of the [https://www.super-code.de/](SuperCode) "Front-End Boot-Camp 2022".
