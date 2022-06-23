@@ -1,6 +1,6 @@
 # member-list-using-array | Online member list
 
-Enter a name in the text field and just press the button to expand the list. Delete the last entry by clicking on "reset".
+This is a solution for an online member list. Simply enter a name in the text field and press the button "hinzufügen" to expand the list. Delete the last entry by clicking on "rückgängig".
 
 ## Table of contents
 
@@ -16,28 +16,19 @@ Enter a name in the text field and just press the button to expand the list. Del
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
 
-Users should be able to:
+Build an HTML form with an input field and two buttons "hinzufügen" for adding and “rückgängig” for deleting the last entry:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+- When you click on "hinzufügen", the text that was entered in the form field should be added to an array. At the same time, the array should be written into the HTML. Maybe as a list? Search the internet or documentation for a way.
+- If you click on the "rückgängig" button, the last element (added last) should be removed again. In addition, the updated array should be printed out again on the page.
+- Think of an attractive design for your list.
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./screenshot/Screenshot-Teilnehmerliste.png)
 
 ### Links
 
