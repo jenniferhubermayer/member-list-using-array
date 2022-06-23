@@ -4,8 +4,8 @@ let memberCount = document.querySelector("h3")
 
 pushElement = (event) => {
     event.preventDefault();
-    let memberName = document.querySelector("#name").value;
-    if (memberName === ""){
+    let memberName = document.querySelector("#name");
+    if (memberName.value === ""){
         switch (arrMemberName.length){
             case 0:
                 memberListItem.innerHTML = `<li>keine Teilnehmer*innen</li>`;
@@ -20,8 +20,9 @@ pushElement = (event) => {
         }
     }
     else{
-        arrMemberName[arrMemberName.length] = memberName;
+        arrMemberName[arrMemberName.length] = memberName.value;
         memberListItem.innerHTML = `<li>${arrMemberName.join("</li><li>")}</li>`;
+        memberName.value = "";
         memberCount.innerText = `Anzahl: ${arrMemberName.length}`;
     }
 }
