@@ -1,5 +1,3 @@
-console.log("Hallo")
-
 // Definiert die Variable "arrMemberName" und fügt dem Array neue Elemente hinzu
 let arrMemberName = new Array();
 // Definiert die Variable "memberListItem" und greift auf die Liste im DOM zu, in der die Teilnehmer ausgegeben werden sollen.
